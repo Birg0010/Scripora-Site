@@ -4,22 +4,16 @@ Public marketing/SEO landing page for Scripora. This is a **separate project**
 from the main application repo (`scripora_vercel`) — it does not touch or
 depend on the app's code, and deploying it will not affect the running app.
 
-## Before deploying
+## Deployment
 
-Search every file for `REPLACE_WITH_LANDING_DOMAIN` and replace it with the
-real domain this project ends up on (a new Vercel-assigned `*.vercel.app`
-subdomain, or the `scripora.app` custom domain if you attach it here).
-It appears in:
+Live at `https://scripora-site.vercel.app/`. This URL is set in the
+canonical tags, Open Graph/Twitter tags, `robots.txt`, and `sitemap.xml`.
 
-- `index.html` (canonical, Open Graph, Twitter tags)
-- `privacy.html`, `terms.html` (canonical tags)
-- `robots.txt` (sitemap reference)
-- `sitemap.xml` (all `<loc>` entries)
-
-Nothing else needs to change — the app's own domain (`scripora.vercel.app`)
-is intentionally still referenced anywhere the page links out to the app
-itself (the "Open Scripora" / "Start Writing" buttons, and the JSON-LD
-`SoftwareApplication.url` field, which correctly points at the real app).
+The app's own domain (`scripora.vercel.app`) is intentionally still
+referenced anywhere the page links out to the app itself (the "Open
+Scripora" / "Start Writing" buttons, and the JSON-LD
+`SoftwareApplication.url` field, which correctly points at the real app) —
+this is a separate project and does not touch or depend on the app's code.
 
 ## Structure
 
@@ -32,6 +26,7 @@ script.js         — nav toggle + FAQ accordion, vanilla JS
 robots.txt
 sitemap.xml
 vercel.json
+favicon.ico       — root fallback, generated from Icon/icon-512.png
 Icon/             — copied from the app's own icon set (not re-generated)
 ```
 
