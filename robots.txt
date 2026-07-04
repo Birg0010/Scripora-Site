@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # PLACEHOLDER: replace with the real domain once this project is deployed
-Sitemap: https://REPLACE_WITH_LANDING_DOMAIN/sitemap.xml
+Sitemap: https://https://scripora-site.vercel.app/sitemap.xml
