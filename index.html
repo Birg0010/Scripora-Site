@@ -13,22 +13,22 @@
 
   gtag('config', 'G-YHD574L0KR');
 </script>
-<title>Scripora — A Script Editor Built Around Structure, Not AI</title>
-<meta name="description" content="Scripora is a purpose-built script editor for YouTube creators. Organize every video into Hook, Context, Main Body, CTA and Outro — offline-first, no AI, no fake scoring, no paywalls.">
+<title>Scripora — A Script Editor Built Around Structure</title>
+<meta name="description" content="Scripora is a purpose-built script editor for YouTube creators. Organize every video into Hook, Context, Main Body, CTA and Outro, manage your whole script library, and export a finished portfolio — free, offline-first, and refreshingly simple.">
 <link rel="canonical" href="https://scripora-site.vercel.app/">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="Scripora — A Script Editor Built Around Structure, Not AI">
-<meta property="og:description" content="Organize every video into Hook, Context, Main Body, CTA and Outro. Offline-first, no AI, no fake scoring, no paywalls.">
+<meta property="og:title" content="Scripora — A Script Editor Built Around Structure">
+<meta property="og:description" content="Organize every video into Hook, Context, Main Body, CTA and Outro. Manage your script library and export a finished portfolio — free and offline-first.">
 <meta property="og:url" content="https://scripora-site.vercel.app/">
 <meta property="og:image" content="https://scripora-site.vercel.app/Icon/icon-512.png">
 <meta property="og:site_name" content="Scripora">
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Scripora — A Script Editor Built Around Structure, Not AI">
-<meta name="twitter:description" content="Organize every video into Hook, Context, Main Body, CTA and Outro. Offline-first, no AI, no fake scoring, no paywalls.">
+<meta name="twitter:title" content="Scripora — A Script Editor Built Around Structure">
+<meta name="twitter:description" content="Organize every video into Hook, Context, Main Body, CTA and Outro. Manage your script library and export a finished portfolio — free and offline-first.">
 <meta name="twitter:image" content="https://scripora-site.vercel.app/Icon/icon-512.png">
 <meta name="twitter:site" content="@selerii">
 
@@ -49,7 +49,7 @@
   "url": "https://scripora.vercel.app/",
   "applicationCategory": "ProductivityApplication",
   "operatingSystem": "Web, Progressive Web App",
-  "description": "Scripora is an offline-first script editor for YouTube creators. It organizes scripts into Hook, Context, Main Body, CTA and Outro sections, with paste-and-detect, notes, and portfolio export.",
+  "description": "Scripora is an offline-first script editor for YouTube creators. It organizes scripts into Hook, Context, Main Body, CTA and Outro sections, manages a full library of scripts by status, and includes notes and portfolio export.",
   "offers": {
     "@type": "Offer",
     "price": "0",
@@ -57,6 +57,7 @@
   },
   "featureList": [
     "Hook, Context, Main Body, CTA and Outro script structure",
+    "Script library with Draft, In Progress, Ready and Filmed statuses",
     "Section-based editor",
     "Paste and automatically detect sections",
     "Reorder sections",
@@ -135,7 +136,7 @@
     <div class="wrap">
       <div class="hero-copy">
         <h1>Every video needs a <em>structure</em>. Scripora gives you one.</h1>
-        <p class="lead">Scripora organizes your scripts into five clear stages — Hook, Context, Main Body, CTA and Outro — so you write with a shape in mind instead of a wall of text.</p>
+        <p class="lead">Scripora is a script editor for YouTube creators. It organizes your scripts into five clear stages — Hook, Context, Main Body, CTA and Outro — so you write with a shape in mind instead of a wall of text.</p>
         <div class="hero-stages" aria-hidden="true">
           <span class="stage-chip hook">Hook</span>
           <span class="stage-chip ctx">Context</span>
@@ -147,6 +148,7 @@
           <a class="btn btn-primary" href="https://scripora.vercel.app/">Start Writing</a>
           <a class="btn btn-ghost" href="#how-it-works">See How It Works</a>
         </div>
+        <p class="hero-reassurance">Free to start. No signup required to begin writing.</p>
       </div>
 
       <div class="hero-visual">
@@ -256,12 +258,118 @@
     </div>
   </section>
 
+  <!-- ══════════ SCRIPT LIBRARY ══════════ -->
+  <section id="library">
+    <div class="wrap">
+      <div class="lib-copy">
+        <span class="eyebrow">Script Library</span>
+        <h2>Every script lives in one workspace, not just one page.</h2>
+        <p>Scripora isn't just a single editor — it's a library of everything you're writing. Each script carries its own status, so you always know what's a rough draft and what's ready to film.</p>
+      </div>
+      <div class="mock-frame lib-mock" role="img" aria-label="Scripora script library showing scripts filtered by Draft, In Progress, Ready and Filmed status">
+        <div class="lib-filters">
+          <span class="lib-filter">Draft</span>
+          <span class="lib-filter active">In Progress</span>
+          <span class="lib-filter">Ready</span>
+          <span class="lib-filter">Filmed</span>
+        </div>
+        <div class="lib-list">
+          <div class="lib-card">
+            <div class="lib-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6M5 8h14M5 4h14"/></svg></div>
+            <div class="lib-info">
+              <div class="lib-title">Why Vending Machines Still Jam</div>
+              <div class="lib-meta">812 words · 6 sections · 2h ago</div>
+              <span class="sbadge draft"><span class="sbadge-dot"></span>Draft</span>
+            </div>
+          </div>
+          <div class="lib-card">
+            <div class="lib-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6M5 8h14M5 4h14"/></svg></div>
+            <div class="lib-info">
+              <div class="lib-title">The Physics of a Perfect Free Kick</div>
+              <div class="lib-meta">1,240 words · 9 sections · 1d ago</div>
+              <span class="sbadge progress"><span class="sbadge-dot"></span>In Progress</span>
+            </div>
+          </div>
+          <div class="lib-card">
+            <div class="lib-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6M5 8h14M5 4h14"/></svg></div>
+            <div class="lib-info">
+              <div class="lib-title">Inside the World's Loneliest Lighthouse</div>
+              <div class="lib-meta">960 words · 7 sections · 3d ago</div>
+              <span class="sbadge ready"><span class="sbadge-dot"></span>Ready</span>
+            </div>
+          </div>
+          <div class="lib-card">
+            <div class="lib-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6M5 8h14M5 4h14"/></svg></div>
+            <div class="lib-info">
+              <div class="lib-title">How Airports Move a Million Bags a Day</div>
+              <div class="lib-meta">1,530 words · 11 sections · 5d ago</div>
+              <span class="sbadge filmed"><span class="sbadge-dot"></span>Filmed</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ SHOWCASE: NOTES DRAWER + PORTFOLIO EXPORT ══════════ -->
+  <section class="showcase">
+    <div class="wrap">
+
+      <div class="showcase-block">
+        <div class="mock-frame notes-mock" role="img" aria-label="Scripora Notes Drawer showing Facts, Ideas, Links and Notes tabs with sample research notes">
+          <div class="mock-titlebar"><span>Script Notes</span></div>
+          <div class="nd-tabs">
+            <span class="nd-tab active">Facts</span>
+            <span class="nd-tab">Ideas</span>
+            <span class="nd-tab">Links</span>
+            <span class="nd-tab">Notes</span>
+          </div>
+          <div class="nd-list">
+            <div class="nd-note">The curve on a free kick comes from the Magnus effect, not just how hard it's struck.</div>
+            <div class="nd-note">Roberto Carlos's 1997 free kick vs France is the most-cited real-world example.</div>
+            <div class="nd-note">Average professional free kick speed is around 120 km/h.</div>
+          </div>
+        </div>
+        <div class="showcase-copy">
+          <span class="eyebrow">Notes Drawer</span>
+          <h2>Keep your research next to your writing, not in another tab.</h2>
+          <p>Every script has its own drawer split into Facts, Ideas, Links and Notes. Drop a source in the moment you find it, and it's right there when you need it — no alt-tabbing to a browser window you'll lose track of.</p>
+        </div>
+      </div>
+
+      <div class="showcase-block reverse">
+        <div class="showcase-copy">
+          <span class="eyebrow">Portfolio Export</span>
+          <h2>Turn a finished script into something you can actually send.</h2>
+          <p>One click formats your script into a clean, color-coded HTML document — ready to share with editors, collaborators, or anyone who needs to see the finished script without opening Scripora at all.</p>
+        </div>
+        <div class="mock-frame pf-mock" role="img" aria-label="Scripora Portfolio Export showing a formatted script document with author, word count and duration">
+          <div class="pf-head">
+            <div class="pf-label">Script Portfolio</div>
+            <div class="pf-title">The Physics of a Perfect Free Kick</div>
+            <div class="pf-meta">
+              <div><span>Author</span>Jordan Ade</div>
+              <div><span>Words</span>1,240</div>
+              <div><span>Duration</span>~9 min</div>
+            </div>
+          </div>
+          <div class="pf-body">
+            <p class="pf-line hook">Every free kick that curves past a wall of defenders is really a physics demonstration in disguise.</p>
+            <p class="pf-line ctx">Spin, speed and air pressure decide whether the ball bends — or just flies straight into the wall.</p>
+          </div>
+          <div class="pf-export-btn">Export Portfolio</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
   <!-- ══════════ FEATURES ══════════ -->
   <section id="features">
     <div class="wrap">
       <div class="section-head">
         <span class="eyebrow">Features</span>
-        <h2>Just what a script editor needs.</h2>
+        <h2>Everything else a script editor needs.</h2>
       </div>
       <div class="feature-grid">
         <div class="feature-card">
@@ -280,17 +388,10 @@
         </div>
         <div class="feature-card">
           <div class="fc-icon" aria-hidden="true">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
           </div>
-          <h3>Notes Drawer</h3>
-          <p>Keep Facts, Ideas, Links and Notes next to your script so research never gets lost in another tab.</p>
-        </div>
-        <div class="feature-card">
-          <div class="fc-icon" aria-hidden="true">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3"/></svg>
-          </div>
-          <h3>Portfolio Export</h3>
-          <p>Turn a finished script into a formatted, color-coded HTML document you can share or archive.</p>
+          <h3>Cloud Sync</h3>
+          <p>Sign in with Google and your scripts back up automatically and follow you across devices.</p>
         </div>
         <div class="feature-card">
           <div class="fc-icon" aria-hidden="true">
@@ -300,6 +401,14 @@
           <p>No connection, no problem. Keep drafting and everything saves locally as you go.</p>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- ══════════ MID-PAGE CTA ══════════ -->
+  <section class="mid-cta">
+    <div class="wrap center">
+      <h2>That's the whole editor. Try it with your next script.</h2>
+      <a class="btn btn-primary" href="https://scripora.vercel.app/">Start Writing</a>
     </div>
   </section>
 
@@ -352,24 +461,6 @@
     </div>
   </section>
 
-  <!-- ══════════ WHO IT'S FOR ══════════ -->
-  <section>
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow">Who It's For</span>
-        <h2>Built for people who write to be watched.</h2>
-      </div>
-      <div class="audience-grid">
-        <div class="audience-chip">YouTube creators</div>
-        <div class="audience-chip">Documentary writers</div>
-        <div class="audience-chip">Educational creators</div>
-        <div class="audience-chip">Video essay creators</div>
-        <div class="audience-chip">Researchers</div>
-        <div class="audience-chip">Small creator teams</div>
-      </div>
-    </div>
-  </section>
-
   <!-- ══════════ COMING NEXT ══════════ -->
   <section class="roadmap">
     <div class="wrap">
@@ -383,6 +474,42 @@
         <span class="roadmap-item">More themes</span>
       </div>
       <p class="roadmap-note">Version 1 focuses on a dependable writing experience. What comes next will be shaped by real feedback, not a fixed timeline — nothing above is a promise or a date.</p>
+    </div>
+  </section>
+
+  <!-- ══════════ WHO IT'S FOR ══════════ -->
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Who It's For</span>
+        <h2>Built for people who write to be watched.</h2>
+      </div>
+      <div class="audience-grid">
+        <div class="audience-card">
+          <h4>YouTube creators</h4>
+          <p>Keep every video's hook, story and CTA structured before you ever hit record.</p>
+        </div>
+        <div class="audience-card">
+          <h4>Documentary writers</h4>
+          <p>Hold a long-form narrative together across many sections without losing the thread.</p>
+        </div>
+        <div class="audience-card">
+          <h4>Educational creators</h4>
+          <p>Make sure every explanation still lands on a clear point and a clear next step.</p>
+        </div>
+        <div class="audience-card">
+          <h4>Video essay creators</h4>
+          <p>Draft and reorder long arguments without rewriting them from scratch each time.</p>
+        </div>
+        <div class="audience-card">
+          <h4>Researchers</h4>
+          <p>Keep sources in the Notes Drawer right next to the writing they support.</p>
+        </div>
+        <div class="audience-card">
+          <h4>Small creator teams</h4>
+          <p>Share a finished, formatted script instantly with a Portfolio Export.</p>
+        </div>
+      </div>
     </div>
   </section>
 
